@@ -1,0 +1,996 @@
+ /* Webshop start */
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-200 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-300 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-regular - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-900 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+ p{
+    margin: 0;
+}
+
+.nav-img {
+    margin-right: 20px;
+}
+
+.container {
+    width: 1640px;
+}
+
+.header,
+.section,
+.footer {
+    padding-top: 100px;
+}
+
+.browse-title{
+    font-style: 30px;
+    font-weight: 600;
+}
+
+.subscribe-title{
+    font-weight: 600;
+    font-style: 18px;
+}
+
+.btn-subscribe{
+    font-style: 15px;
+    font-weight: 500;
+}
+
+.wordpress-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.wordpress-img {
+    height: auto;
+    padding: 100px;
+    max-width: 120%;
+}
+
+.col-wordpress {
+    margin-top: 180px;
+}
+
+.clients-logo {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+ :root {
+    --color1: #0FAFE9;
+    --color2: #0FAFE9 10%;
+}
+
+
+.wordpress-title{
+    margin-bottom: 40px;
+}
+
+.wordpress-desc{
+    margin-top: 40px;
+}
+.clients-title{
+    text-align: center;
+}
+
+.categories {
+    padding: 100px;
+}
+
+.brows-categories{
+    margin-bottom: 40px;
+}
+
+.brows-title{
+    padding: 10px 20px;
+}
+
+.subscribe {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0F0F6;
+    margin-bottom: 40px;
+}
+
+.btn-subscribe {
+    margin: 20px;
+}
+
+.monthly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.montly-img{
+    margin-bottom: 40px;
+}
+
+.monthly-text{
+    margin-bottom: 40px;
+}
+
+.squarespace-img{
+    width: 100%;
+    
+}
+
+.support{
+    background-color: #E0F0F6;
+    padding: 20px 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.support-info{
+    margin-left: 20px;
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    height: 155px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.card:hover .card-actions{
+    top: 0;
+}
+
+.card-img{
+    width: 306px;
+    height: 100%;
+    background-image: url(../img/duggiapp.png);
+    background-position: center center ;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.card-actions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity:85%;
+    top: 100%;
+    transition: all 0.2s;
+    left: 0;
+}
+
+
+.card-likes, .card-btn{
+    position: relative;
+}
+
+.img-card{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card-btn{
+    right: -115px;
+    bottom: -60px;
+}
+
+.cargo-card-title{
+    margin-top: 15px;
+}
+
+.container-builds{
+   
+   background-color: #E0F0F6;
+ 
+}
+
+.builds-title{
+    font-style: 35px;
+    font-weight: 700;
+}
+
+.builds-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.builds-btn{
+padding: 10px 30px;
+margin-right: 30px;
+}
+
+.ico-suport{
+    margin-right: 10px;
+}
+
+.security-info{
+    font-style: 18px;
+    font-weight: 600;
+}
+
+.securiyu-desc{
+    color: #8786AD;
+}
+
+.cargo-card-info{
+    color: #B9B9B9;
+}
+
+
+.builds-btn{
+margin-top: 20px;
+}
+
+.builds-btn:last-child{
+ color: black;
+ text-decoration: none;
+}
+
+.build{
+  display: flex;
+  position: relative;
+  height: 400px;
+}
+
+
+.builds-img{
+   background-image: url(../img/phones.png);
+   background-position: center center ;
+   background-size: cover;
+   object-fit: cover;
+   height: 300px;
+   width: 100%;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+
+.footer-item{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-li{
+    margin-bottom: 20px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    opacity: 60%;
+}
+
+.footer-ico{
+    margin-left: 10px;
+}
+ /* Webshop end */
+
+ /* Webshop-single start */
+ p{
+    margin: 0;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+.nav-img {
+    margin-right: 20px;
+}
+
+.navbar{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.price-info{
+    padding: 10px;
+}
+
+.wiredugi{
+    margin-bottom: 2em;
+}
+
+.wiredugi-info{
+    padding-top: 2em;
+}
+
+.wiredugi-title{
+    margin-left: 30px;
+}
+
+.wiredugi-desc{
+    margin-bottom: 3em;
+}
+
+.wiredugi-text{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.input-btn{
+    margin-top: 2em;
+}
+
+.licence-price{
+    margin-top: 1.3em;
+    padding: 1em 2em;
+}
+
+.form-check-price{
+    padding: 1em 2em;
+}
+
+
+.bg-info{
+    padding: 1em 1em;
+}
+
+.list-check{
+    padding: 10px;
+    background-color:#E0F0F6;
+}
+
+.licence-btn{
+    margin: 1em;
+}
+
+
+.licence-desc{
+    padding: 2em 1em;
+}
+
+.container-carusel{
+    max-height: 280px;
+    
+}
+
+.list-version{
+    padding: 1.5em 1.3em;
+}
+
+.builds{
+    margin-top: 200px;
+    background-color: #E0F0F6;
+}
+
+ .builds-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.builds-btn{
+ padding: 10px 30px;
+ margin-right: 30px;
+}
+
+
+ .builds-btn{
+ margin-top: 20px;
+}
+
+ .builds-btn:last-child{
+  color: black;
+  text-decoration: none;
+}
+
+
+ 
+
+.builds-img{
+    background-image: url(../img/phones.png);
+    background-position: center center ;
+    background-size: cover;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.plugins-title{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.card{
+    padding: 0;
+    border: 0;
+}
+
+.card-text{
+    opacity: 60%;
+}
+
+ /* Webshop-single end */
+
+ /* Dashboard start */
+ .alerts-card-block{
+    margin-top: 50px;
+}
+
+.alert-card{
+    padding: 60px 0px;
+    max-height: 200px;
+}
+
+
+.list-group-card{
+    max-width: 250px;
+}
+
+.dashboard-text{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.list-item-profile{
+    padding: 20px;
+}
+
+ /* Dashboard end */
+
+ /* Orders start */
+ .list-item-profile{
+    padding: 20px;
+}
+
+.order-img{
+    margin-right: 10px;
+}
+
+.orders-list-item:not(:last-child){
+    margin-right: 70px;
+}
+
+.orders-list-item-top{
+    margin-right: 80px;
+}
+
+ /* Orders end */
+
+ /* Address start */
+ .list-item-profile{
+    padding: 20px;
+}
+
+.Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+ /* Address end */
+
+ /* Details start */
+ .Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+ /* Details end */
+
+ /* My card start */
+ .list-item-profile{
+    padding: 20px;
+}
+
+.Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apply-link{
+    width: 150px;
+    
+}
+
+.d-grid{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    padding: 1.2em ;
+}
+
+.shopping-info{
+    margin-top: 30px;
+}
+
+.orders-list-item-first{
+    margin-left: 40px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+
+ /* My card end */
+
+ /* Checkout start */
+ p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+
+
+.nav-img {
+    margin-right: 20px;
+}
+
+.navbar{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.list-item-profile{
+    padding: 20px;
+}
+
+.Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.list-group-price{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apply-link{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.wiredugi-logo{
+    margin-right: 15px;
+}
+
+.btn-soforte{
+    max-width: 230px;
+    padding: 0.5em;
+}
+
+.link-edit{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.d-grid{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    padding: 1.2em ;
+}
+
+.shopping-info{
+    margin-top: 30px;
+}
+
+.orders-list-item-first{
+    margin-left: 40px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+
+ /* Checkout end */
+
+ /* Thank you start */
+ .list-item-profile{
+    padding: 20px;
+}
+
+.Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.list-group-price{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apply-link{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.wiredugi-logo{
+    margin-right: 15px;
+}
+
+.btn-soforte{
+    max-width: 230px;
+    padding: 0.5em;
+}
+
+.link-edit{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.d-grid{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    padding: 1.2em ;
+}
+
+.shopping-info{
+    margin-top: 30px;
+}
+
+.orders-list-item-first{
+    margin-left: 40px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+ /* Thank you end */
+
+ /* Login and Register start */
+ .address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.list-group-price{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apply-link{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.wiredugi-logo{
+    margin-right: 15px;
+}
+
+.btn-soforte{
+    max-width: 230px;
+    padding: 0.5em;
+}
+
+.link-edit{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.d-grid{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    padding: 1.2em ;
+}
+
+.shopping-info{
+    margin-top: 30px;
+}
+
+.orders-list-item-first{
+    margin-left: 40px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+  /* Login and Register end */
+
+  /* Forgot Password start */
+  /* Forgot Password end */
+
+  /* After register start */
+  .list-item-profile{
+    padding: 20px;
+}
+
+.Address-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.address-desc{
+    margin-bottom: 1em;
+}
+
+.details-title{
+    margin-bottom: 20px;
+}
+
+.list-group-price{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.input-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apply-link{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.wiredugi-logo{
+    margin-right: 15px;
+}
+
+.btn-soforte{
+    max-width: 230px;
+    padding: 0.5em;
+}
+
+.link-edit{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.d-grid{
+    margin-top: 30px;
+}
+
+.list-group-item{
+    padding: 1.2em ;
+}
+
+.shopping-info{
+    margin-top: 30px;
+}
+
+.orders-list-item-first{
+    margin-left: 40px;
+}
+
+.btn-link{
+    margin-left: 30px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-item{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    opacity: 60%;
+}
+
+.footer-ico{
+    margin-left: 10px;
+}
+
+.data-list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first-group{
+    margin-left: 50px;
+}
+
+
+
+.order-title{
+    margin-bottom: 50px;
+}
+
+.text-muted-password{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* After register end */
